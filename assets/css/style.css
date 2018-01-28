@@ -1,11 +1,38 @@
-body {}
+body {
+    background-color:#ffffff;
+    width:960px;
+}
 
-#name {}
+#name {
+    background-color:#4aaaa5;
+    color:#ffffff;
+    text-align:center;
+    padding:5px 10px 5px 10px;
+}
 
-#content {}
+#content {
+    background-color:#ffffff;
 
-#entire {}
+}
 
-#sidebar {}
+#entire {
+    background-image: url("../images/wall4_@2X.png");
+}
 
-#main {}
+#sidebar {
+    background-color:#ffffff;
+    width:270px;
+}
+
+#main {
+    background-color:#ffffff;
+    width:650px;
+}
+
+footer {
+    background-color:#666666;
+}
+
+.head1 {
+    color:#4aaaa5;
+}

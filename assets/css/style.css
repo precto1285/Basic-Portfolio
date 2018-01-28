@@ -8,24 +8,25 @@ body {
     background-color:#4aaaa5;
     color:#ffffff;
     text-align:center;
-    padding:5px 20px 5px 20px;
-    /* border:solid; */
-    width:150px;
+    padding:5px 10px 5px 10px;
+    height:100px;
+    width:200px;
     float:right;
     position:fixed;
+    top:43px;
     left:350px;
     
 }
 
 #name {
     /* border:solid; */
-    margin-left:320px;
     margin-bottom:50px;
-    width:960px
+    width:100%
 }
 
 #content {
     margin-bottom:50px;
+    padding-right:310px;
     background-color:#ffffff;
     text-align:right;
     width:100%;
@@ -63,7 +64,7 @@ body {
 }
 
 #sidebar {
-    padding:15px;
+    padding:10px;
     background-color:#ffffff;
     width:270px;
     float:right;
@@ -74,6 +75,7 @@ body {
 #main {
     margin-bottom:50px;
     background-color:#ffffff;
+    padding:10px;
     width:650px;
     float:left;
     /* border:solid; */

@@ -1,6 +1,6 @@
 body {
     background-color:#ffffff;
-    width:100%x;
+    align-content:center;
     
 }
 
@@ -8,16 +8,17 @@ body {
     background-color:#4aaaa5;
     color:#ffffff;
     text-align:center;
-    padding:5px 10px 5px 10px;
-    border:solid;
+    padding:5px 20px 5px 20px;
+    /* border:solid; */
     width:150px;
     float:left;
     position:fixed;
-    
+    left:100px;
 }
 
 #name {
     border:solid;
+    margin-bottom:200px;
     width:960px
 }
 
@@ -31,20 +32,27 @@ body {
 
 #link1 {
     float:right;
-    border:solid;
+    padding: 10px;
+    border-left: solid;
+    border-width:0.5px;
+
 }
 #link2 {
     float:right;
-    border:solid;
+    padding: 10px;
+    border-left:solid;
+    border-width:0.5px
 }
 #link3 {
     float:right;
-    border:solid;
+    padding: 10px;
+
+    /* border:solid; */
 }
 
 #entire {
     background-image: url("../images/wall4_@2X.png");
-    border:solid;
+    /* border:solid; */
     clear:both;
     width:960px;
 }
@@ -53,7 +61,7 @@ body {
     background-color:#ffffff;
     width:270px;
     float:right;
-    border:solid;
+    /* border:solid; */
     text-align:center;
 }
 
@@ -73,7 +81,7 @@ body {
 footer {
     background-color:#666666;
     clear:both;
-    border:solid;
+    /* border:solid; */
     text-align:center;
 }
 

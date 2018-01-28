@@ -81,8 +81,13 @@ body {
 footer {
     background-color:#666666;
     clear:both;
-    /* border:solid; */
     text-align:center;
+    color:#ffffff;
+    border-top:solid;
+    border-top-color:#4aaaa5;
+    border-top-width: 10px;
+    height:40px;
+    padding-top:15px;
 }
 
 .head1 {

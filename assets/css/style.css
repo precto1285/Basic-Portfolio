@@ -1,36 +1,58 @@
 body {
     background-color:#ffffff;
     width:960px;
+    
 }
 
-#name {
+#title {
     background-color:#4aaaa5;
     color:#ffffff;
     text-align:center;
     padding:5px 10px 5px 10px;
+    border:solid;
+    width:150px;
+
+}
+
+#name {
+    border:solid;
 }
 
 #content {
     background-color:#ffffff;
-
+    text-align:right;
 }
 
 #entire {
     background-image: url("../images/wall4_@2X.png");
+    border:solid;
 }
 
 #sidebar {
     background-color:#ffffff;
     width:270px;
+    float:right;
+    border:solid;
 }
 
 #main {
     background-color:#ffffff;
     width:650px;
+    float:left;
+    border:solid;
+}
+#Philippe {
+    float:left;
+}
+#paragraph{
+    float:right;
 }
 
 footer {
     background-color:#666666;
+    clear:both;
+    border:solid;
+    text-align:center;
 }
 
 .head1 {

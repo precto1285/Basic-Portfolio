@@ -1,6 +1,6 @@
 body {
     background-color:#ffffff;
-    width:960px;
+    width:100%x;
     
 }
 
@@ -11,21 +11,42 @@ body {
     padding:5px 10px 5px 10px;
     border:solid;
     width:150px;
-
+    float:left;
+    position:fixed;
+    
 }
 
 #name {
     border:solid;
+    width:960px
 }
 
 #content {
     background-color:#ffffff;
     text-align:right;
+    width:100%;
+    float:right;
+    position:static;
+}
+
+#link1 {
+    float:right;
+    border:solid;
+}
+#link2 {
+    float:right;
+    border:solid;
+}
+#link3 {
+    float:right;
+    border:solid;
 }
 
 #entire {
     background-image: url("../images/wall4_@2X.png");
     border:solid;
+    clear:both;
+    width:960px;
 }
 
 #sidebar {
@@ -33,6 +54,7 @@ body {
     width:270px;
     float:right;
     border:solid;
+    text-align:center;
 }
 
 #main {

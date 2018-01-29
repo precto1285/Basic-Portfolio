@@ -11,7 +11,7 @@ body {
     text-align:center;
     padding:0px 10px 0px 10px;
     height:auto;
-    width:200px;
+    width:250px;
     float:left;
     position: fixed;
     top:0px;
@@ -31,14 +31,13 @@ body {
 #content {
     background-color:#ffffff;
     margin-right:400px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align:right;
     float:right;
     position:static;
     
 }
 
 #link1 {
+    text-align:right;
     float:right;
     padding-left:50px;
     padding-right: 400px;
@@ -48,6 +47,7 @@ body {
 
 }
 #link2 {
+    text-align:right;
     float:right;
     padding-left:50px;
     padding-right: 50px;
@@ -57,6 +57,7 @@ body {
 
 }
 #link3 {
+    text-align:right;
     float:right;
     padding-left:50px;
     padding-right: 50px;
@@ -78,23 +79,24 @@ body {
     background-color:#ffffff;
     width:270px;
     float:right;
-    /* border:solid; */
     text-align:center;
 }
 
 #main {
-    margin-bottom:283px;
+    margin-bottom:230px;
     background-color:#ffffff;
     font-size:10pt;
     padding:7px;
     width:650px;
     float:left;
-    /* border:solid; */
+    
 }
 #Philippe {
+    padding: 5px;
     float:left;
 }
 #paragraph{
+    padding: 5px;
     float:right;
 }
 
@@ -109,7 +111,7 @@ footer {
     border-top-color:#4aaaa5;
     border-top-width: 10px;
     height:40px;
-    padding-top:15px;
+    padding-top:20px;
     
 }
 
@@ -119,4 +121,8 @@ footer {
 }
 p {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+a {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 10pt;
 }

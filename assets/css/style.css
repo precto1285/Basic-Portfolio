@@ -4,22 +4,21 @@ body {
     margin: auto;  
  }
 
-#title {
+#name {
     background-color:#4aaaa5;
     color:#ffffff;
     text-align:center;
     padding:5px 10px 5px 10px;
     height:auto;
     width:200px;
-    float:right;
-    position:fixed;
+    float:left;
+    position: fixed;
     top:43px;
     left:320px;
     
 }
 
-#name {
-    /* border:solid; */
+#title {
     margin-bottom:50px;
     width:100%
 }
@@ -30,6 +29,7 @@ body {
     background-color:#ffffff;
     text-align:right;
     width:100%;
+    height:auto;
     float:right;
     position:static;
     

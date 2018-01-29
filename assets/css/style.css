@@ -7,6 +7,7 @@ body {
 #name {
     background-color:#4aaaa5;
     color:#ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     text-align:center;
     padding:0px 10px 0px 10px;
     height:auto;
@@ -30,6 +31,7 @@ body {
 #content {
     background-color:#ffffff;
     margin-right:400px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     text-align:right;
     float:right;
     position:static;
@@ -71,6 +73,7 @@ body {
 }
 
 #sidebar {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     padding:7px;
     background-color:#ffffff;
     width:270px;
@@ -98,6 +101,8 @@ body {
 footer {
     background-color:#666666;
     clear:both;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 7pt;
     text-align:center;
     color:#ffffff;
     border-top:solid;
@@ -109,5 +114,9 @@ footer {
 }
 
 .head1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     color:#4aaaa5;
+}
+p {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }

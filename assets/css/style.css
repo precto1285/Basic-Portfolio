@@ -15,7 +15,7 @@ body {
     height:auto;
     width:250px;
     float:left;
-    position: static;
+    position: absolute;
     
 }
 

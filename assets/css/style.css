@@ -12,7 +12,7 @@ body {
     text-align:center;
     padding:auto;
     margin-top: -37px;
-    margin-left:273px;
+    margin-left:350px;
     height:auto;
     width:300px;
     float:left;
@@ -143,4 +143,5 @@ a {
 }
 a:hover {
     color:blue;
+    opacity:50%;
 }

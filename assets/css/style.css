@@ -31,6 +31,7 @@ body {
     border-color: #cccccc;
 }
 
+
 #content {
     background-color:#ffffff;
     float:right;
@@ -85,20 +86,21 @@ body {
     border: solid;
     border-width: 1px;
     border-color: #cccccc;
+    
 }
 
 #main {
     margin-bottom:230px;
     background-color:#ffffff;
     font-size:10pt;
-    padding:7px;
+    padding:7px 7px 10px 7px;
     width:650px;
     height:320px;
     float:left;
     border: solid;
     border-width: 1px;
     border-color: #cccccc;
-    
+    overflow:auto;
 }
 #Philippe {
     padding: 5px;
@@ -145,3 +147,25 @@ a:hover {
     color:blue;
     opacity:50%;
 }
+.l {
+    float:left;
+    clear:both;
+    margin:3px;
+    border:solid;
+    
+}
+
+.r {
+    float:right;
+    clear:both;
+    margin:3px;
+    border:solid;
+
+}
+#left {
+    float:left;
+}
+#right {
+    float:right;
+}
+    

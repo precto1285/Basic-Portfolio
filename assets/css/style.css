@@ -95,7 +95,7 @@ body {
     font-size:10pt;
     padding:7px 7px 10px 7px;
     width:650px;
-    height:320px;
+    height:auto;
     float:left;
     border: solid;
     border-width: 1px;
@@ -145,10 +145,10 @@ a {
 }
 a:hover {
     color:blue;
-    opacity:50%;
+    opacity:90%;
 }
 .l {
-    float:left;
+    float:right;
     clear:both;
     margin:3px;
     border:solid;

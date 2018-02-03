@@ -12,10 +12,13 @@ body {
     text-align:center;
     padding:auto;
     margin-top: -37px;
-    margin-left:350px;
     height:auto;
     width:300px;
     float:left;
+    position:fixed;
+    left:391px;
+    top:40px; 
+
     
     
 }
@@ -123,9 +126,12 @@ footer {
     border-top-width: 10px;
     height:40px;
     padding-top:20px;
-    position:fixed;
     margin-top:670px;
     width:100%;
+    position:fixed;
+    left:0;
+    bottom:0;   
+
     
 }
 
@@ -145,22 +151,31 @@ a {
 }
 a:hover {
     color:blue;
-    opacity:90%;
 }
 .l {
     float:right;
     clear:both;
     margin:3px;
-    border:solid;
-    
+    /* border:solid; */
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    text-align:center;    
+    padding: 10px;
+    margin:5px;
 }
 
 .r {
     float:right;
     clear:both;
     margin:3px;
-    border:solid;
-
+    /* border:solid; */
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    text-align:center;
+    padding: 10px;
+    margin:5px;
 }
 #left {
     float:left;

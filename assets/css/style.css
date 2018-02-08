@@ -38,6 +38,7 @@ body {
 #content {
     background-color:#ffffff;
     float:right;
+
     
     
 }
@@ -104,6 +105,8 @@ body {
     border-width: 1px;
     border-color: #cccccc;
     overflow:auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size:15px;
 }
 #Philippe {
     padding: 5px;
@@ -155,27 +158,29 @@ a:hover {
 .l {
     float:right;
     clear:both;
-    margin:3px;
+    margin-top:0px;
     /* border:solid; */
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color:#4aaaa5;
     color:#ffffff;
     text-align:center;    
     padding: 10px;
-    margin:5px;
+    margin-left:100px;
+    margin-bottom:10px;
 }
 
 .r {
     float:right;
     clear:both;
-    margin:3px;
+    margin-top:0px;
     /* border:solid; */
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color:#4aaaa5;
     color:#ffffff;
     text-align:center;
     padding: 10px;
-    margin:5px;
+    margin-right:100px;
+    margin-bottom:10px;
 }
 #left {
     float:left;
